@@ -1,2 +1,15 @@
 node_modules/
 
+#sbt ignores
+logs
+target
+/.idea
+/.idea_modules
+/.classpath
+/.project
+/.settings
+/RUNNING_PID
+
+#play ignores
+/project/project
+/project/target
