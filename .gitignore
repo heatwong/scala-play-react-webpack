@@ -13,3 +13,6 @@ target
 #play ignores
 /project/project
 /project/target
+
+#webpack
+app/assets/javascripts/build
