@@ -8,12 +8,12 @@ var webpack = require('webpack'),
 var config = {
     target: 'web',
     entry: {
-        app: path.join(srcPath, 'App.js')
+        app: path.join(srcPath, 'index.js')
         //, common: ['react-dom', 'react']
     },
     resolve: {
         alias: {},
-        extensions: ['.js'],
+        extensions: ['*', '.js'],
         modules: ['node_modules', jsPath]
     },
     output: {
